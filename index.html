@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Traductor</title>
+  </head>
+
+  <body>
+<div class="general">
+    <div class="container ">
+      <div>
+        <div class="header">
+          <select class="first"></select>
+          <button class="iconButton" id="change"><i class="fa-solid fa-code-compare"></i></button>
+          <select class="second"></select>
+        </div>
+        <div class="containerTextArea">
+            <div>
+                <textarea class="fromText" placeholder="Enter text"></textarea>
+                    <div>
+                        <button class="read iconButton"><i class="fas fa-volume-up"></i></button>
+                        <button class="listen iconButton"> <i class="fas fa-microphone"></i></button>
+                        <button class="noListen iconButton"> <i class="fas fa-microphone"></i></button>
+                    </div>
+            </div>
+            <div>
+                <textarea class="toText" placeholder="Enter text" ></textarea>
+                    <div>
+                        <button class="read iconButton"><i class="fas fa-volume-up"></i></button>
+                    </div>
+            </div>
+        </div> 
+        <button class="translate">Translate</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h3 style="background-color: rgba(0, 0, 255, 0.171);color: rgb(16, 41, 63);font-size: 20px;padding-left: 40px;display: block;">Proyecto realizado por ITVastian</h3>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js" type="module"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
